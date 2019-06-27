@@ -1,0 +1,194 @@
+@media all and (max-width: 870px){
+
+
+
+  .rp-header{
+    display: block;
+    height: 45px;
+  }
+  .header-wrapper{
+    display: none;
+    width: 100%;
+  }
+  .flexslider{
+    width: 100%;
+    overflow: hidden;
+
+
+  }
+
+  .flexslider img{
+    height: 600px;
+    width: auto;
+    position: relative;
+     left: 70%; /* 画像の左端が画面中央にくる */
+     margin-left: -800px; /* 画像幅1600pxの半分だけ左に移動する */
+  }
+
+  .rp-site-logo{
+    height: 110px;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+}
+
+@media all and (max-width: 750px){
+
+    .product{
+      width:100%;
+      float:left;
+      height: 100%;
+    }
+    .product-image{
+      float: left;
+      width: 38%;
+    }
+    .product-title{
+      float: right;
+      width: 62%;
+      padding: 5% 0 0 0;
+    }
+    .product-wrapper{
+
+    }
+
+
+}
+
+@media all and (max-width: 670px){
+
+  .product{
+    width: 50%;
+    float: left;
+    height: 400px;
+  }
+  .product-image{
+    width: 220px;
+    height: auto;
+    padding: 10px;
+  }
+  .product-title{
+    font-size: 17px;
+    line-height: 34px;
+    color: #13191b;
+    font-weight: bold;
+    width: 100%;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    padding-left:10px;
+    width: 95%;
+  }
+  .news-left{
+    width: 100%;
+  }
+  .news-right{
+    width: 100%
+  }
+  .news-image{
+    width: 100%;
+    margin: 0 auto;
+    padding: 2%;
+
+  }
+  .news-text{
+    display: none;
+  }
+  .news-title{
+    float: left;
+    padding: 2%;
+  }
+  .news-date{
+    padding: 2%;
+  }
+
+  .rp-header{
+    display: block;
+  }
+  .header-wrapper{
+    display: none;
+  }
+
+
+  .white{
+    height: 180px;
+    background-color: white;
+    position: relative;
+  }
+  .btn-wrapper{
+    height: 65%;
+    width: 90%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-color: white;
+  }
+  .btn{
+    width: 47%;
+    line-height: 48px;
+    text-align: center;
+    margin: 5px 5px;
+  }
+  .line{
+    display: inline-block;
+  }
+  .gray{
+    height: 250px;
+    margin:0;
+    background-color: #939899;
+  }
+  .footer-menu{
+    width: 100%;
+    height: 100%;
+  }
+  .footer-menu a{
+    display: block;
+    color: white;
+    font-family: GillSans;
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 50px;
+    border-bottom: solid 0.5px white;
+    height:50px;
+    width: 100%;
+    margin: 0 auto;
+    transition: 0.5s;
+  }
+  .footer-menu a:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+  }
+  .black{
+    position:relative;
+    height: 210px;
+  }
+  .logo{
+    position: absolute;
+    top: 0;
+    bottom: 15%;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .black p{
+    position:absolute;
+    top: 60%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    height: 10px;
+    width: 400px;
+  }
+
+
+}
